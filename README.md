@@ -41,5 +41,5 @@ Corrections and field experience are welcome. Please open an issue with the chec
 
 ## Related seeds
 
-- [dsh-compat-baseline](https://github.com/PerryLink/dsh-compat-baseline) — HCB: check plugin compatibility before upgrades.
+- [dsh-compat-baseline](https://github.com/PerryLink/dsh-hcb) — HCB: check plugin compatibility before upgrades.
 - [dsh-ecosystem-archive](https://github.com/PerryLink/dsh-ecosystem-archive) — dated ecosystem snapshots for procurement/trend context.
