@@ -38,3 +38,8 @@ This repository is a **reference architecture + 80-item checklist**, not a produ
 ## Contributing
 
 Corrections and field experience are welcome. Please open an issue with the checklist item number and evidence.
+
+## Related seeds
+
+- [dsh-compat-baseline](https://github.com/PerryLink/dsh-compat-baseline) — HCB: check plugin compatibility before upgrades.
+- [dsh-ecosystem-archive](https://github.com/PerryLink/dsh-ecosystem-archive) — dated ecosystem snapshots for procurement/trend context.
