@@ -41,5 +41,5 @@ Corrections and field experience are welcome. Please open an issue with the chec
 
 ## Related seeds
 
-- [dsh-hcb](https://github.com/PerryLink/dsh-hcb) 0.11.1 — **142 checked + 1 tested / 3 FLOW `manual` / gate 2 blocked · 30 review · 110 pilot · 1 `production-candidate`**, checker **143/143 rows on `dsh-standards@1.7.0`**: check plugin compatibility before upgrades. Only `dsh-plugin-guide@0.5.9` is tested / production-candidate, not all rows.
+- [dsh-hcb](https://github.com/PerryLink/dsh-hcb) 0.12.0 — **136 checked + 7 tested / 3 FLOW `manual` / gate 2 blocked · 31 review · 109 pilot · 1 `production-candidate`**, checker **143/143 rows on `dsh-standards@1.7.0`**: check plugin compatibility before upgrades. Only `dsh-plugin-guide@0.5.9` is the production-candidate; 6 further rows are tested (`dsh-budget@0.4.26`, `dsh-defend@0.3.28`, `dsh-mask@0.2.25`, `dsh-memento@0.5.31`, `dsh-observe@0.2.28`, `dsh-test-drive@0.3.26`), not all rows.
 - [dsh-ecosystem-archive](https://github.com/PerryLink/dsh-ecosystem-archive) — dated ecosystem snapshots for procurement/trend context.
