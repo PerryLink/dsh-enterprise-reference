@@ -41,5 +41,5 @@ Corrections and field experience are welcome. Please open an issue with the chec
 
 ## Related seeds
 
-- [dsh-hcb](https://github.com/PerryLink/dsh-hcb) 0.10.1 — **143 checked / 3 FLOW `manual`**: check plugin compatibility before upgrades.
+- [dsh-hcb](https://github.com/PerryLink/dsh-hcb) 0.10.2 — **143 checked / 3 FLOW `manual`**, checker **143/143 rows on `dsh-standards@1.7.0`**: check plugin compatibility before upgrades.
 - [dsh-ecosystem-archive](https://github.com/PerryLink/dsh-ecosystem-archive) — dated ecosystem snapshots for procurement/trend context.
