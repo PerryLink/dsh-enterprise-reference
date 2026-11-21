@@ -1,4 +1,21 @@
-# Enterprise DSH Reference Architecture
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-enterprise-reference-hero-en-dark.webp">
+  <img src="docs/assets/dsh-enterprise-reference-hero-en-light.webp" width="100%" alt="dsh-enterprise-reference: running DSH inside an organization — four pillars, 80 checks across 10 domains, and three scoring gates (pilot 80/160, production 120/160, regulated 150/160) quoted from CHECKLIST.md">
+</picture>
+
+# dsh-enterprise-reference
+
+**A vendor-neutral reference architecture for running DeepSeek Harness inside an organization.**
+
+*Identity, permissions, audit, MCP integration, and offline upgrade/rollback — as four pillars, an 80-item checklist across 10 domains, an L1–L4 maturity model and a 4-week pilot path. Not a product, not a certification.*
+
+[简体中文](README-zh.md) · [Español](README-es.md) · [Português](README-pt.md) · [हिन्दी](README-hi.md)
+
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey.svg)](LICENSE)
+
+</div>
 
 > A vendor-neutral reference for running DeepSeek Harness (DSH) inside an organization: identity, permissions, audit, MCP integration, and offline upgrade/rollback.
 > **Independent community project. Not affiliated with DeepSeek.** License: CC-BY-4.0.
@@ -12,6 +29,8 @@ DSH is a fast-moving open-source agent harness. It is excellent for individual d
 
 This repository is a **reference architecture + 80-item checklist**, not a product. Use it to scope a pilot, write an RFP, or review a vendor.
 
+---
+
 ## Contents
 
 | File | Purpose |
@@ -22,7 +41,20 @@ This repository is a **reference architecture + 80-item checklist**, not a produ
 | `docs/CASE-STUDY-TEMPLATE.md` | one-page template for a pilot write-up |
 | `docs/MATURITY-MODEL.md` | L1–L4 maturity model |
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-enterprise-reference-flow-v5-dark.svg">
+  <img src="docs/assets/dsh-enterprise-reference-flow-v5-light.svg" width="100%" alt="dsh-enterprise-reference structure: four pillars and the reference architecture scope a deployment, the 80-item checklist scores it 0/1/2 with an evidence column, and the scoring gates decide pilot, production or regulated readiness">
+</picture>
+
+*Structure: scope → assess → gate; `WHITEPAPER.md` names the four pillars, `CHECKLIST.md` carries the 80 rows and an evidence column, and the `Scoring` block turns the score into a pilot / production / regulated decision. The token labels inside the diagram are the real file names, check domains and gate values, so the same picture serves all five languages.*
+
 ## How to use
+
+![dsh-enterprise-reference documents: a real terminal run counting 80 checklist items and 10 domains with awk, then printing the Scoring gates verbatim from CHECKLIST.md](docs/assets/dsh-enterprise-reference-demo.gif)
+
+*Animated: a real run over the committed documents on 2026-11-21 — `awk` counts the 80 rows and 10 domains, then `sed` prints the scoring block from `CHECKLIST.md` verbatim. This repository is documentation only, so the documents themselves are the run.*
+
 
 1. Run the checklist as a gap assessment; score each item 0/1/2.
 2. Pick one deployment model (single team / team platform / air-gapped).
